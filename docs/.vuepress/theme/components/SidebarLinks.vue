@@ -68,7 +68,7 @@ export default {
     if (this.$page.frontmatter.defaultHome) {
       this.$page.frontmatter.sidebar = false; //主页不需要侧标栏
     }
-  }
+  },
 
 
   watch: {
