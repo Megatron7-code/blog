@@ -1,6 +1,6 @@
 module.exports = {
-  base: '/blog-demo/',
-  title: 'blog-demo',
+  base: '/',
+  title: 'blog',
   description: 'Vuepress blog demo',
   themeConfig: {
     // 你的GitHub仓库，请正确填写
