@@ -11,5 +11,6 @@ echo 'blog.vm321.com' > CNAME
 git init && git add -A && git commit -m 'deploy'
 
 git push -f git@github.com:Megatron7-code/blog.git master:gh-pages
+git push -f git@gitee.com:megatron7/blog.git master:gh-pages
 
 cd -
