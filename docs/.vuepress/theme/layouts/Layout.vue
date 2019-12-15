@@ -31,7 +31,7 @@
 
     <Home v-if="$page.frontmatter.home"/>
     <!-- 如果md文件中有 home:true 就使用该组件 -->
-    <Tags v-else-if="tags"/>
+    <!-- <Tags v-else-if="tags"/> -->
     <Page
       v-else
       :sidebar-items="sidebarItems"

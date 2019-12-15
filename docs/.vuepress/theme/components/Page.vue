@@ -8,15 +8,17 @@
     <PageNav v-bind="{ sidebarItems }" />
 
     <slot name="bottom" />
+    <RightFixedBopx />
   </main>
 </template>
 
 <script>
 import PageEdit from '@theme/components/PageEdit.vue'
 import PageNav from '@theme/components/PageNav.vue'
+import RightFixedBopx from '@theme/components/RightFixedBopx.vue'
 
 export default {
-  components: { PageEdit, PageNav },
+  components: { PageEdit, PageNav, RightFixedBopx },
   props: ['sidebarItems']
 }
 </script>

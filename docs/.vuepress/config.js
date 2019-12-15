@@ -19,12 +19,12 @@ module.exports = {
           { text: 'Japanese', link: '/language/japanese/' }
         ]
       },
-      { text: '我的GitHub', link: 'https://github.com/Megatron7-code', target:'_blank' },
+      { text: '我的GitHub', link: 'https://github.com/Megatron7-code', target: '_blank' },
       {
-        text:"标签云",
-        link:'/blog/tags/',
-        tags:true
-      },
+        text: "标签云",
+        link: '/blog/tags/',
+        tags: true
+      }
     ],
     sidebar: [
       ['/', '首页'],
@@ -48,7 +48,7 @@ module.exports = {
           ['/blog/Python/tornado.md', 'Python'],
         ]
       },
-],
-    logo: '/WechatIMG13.jpeg',
+    ],
+    logo: '/WechatIMG13.jpeg'
   }
 };
