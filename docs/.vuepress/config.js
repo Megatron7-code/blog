@@ -22,6 +22,7 @@ module.exports = {
       //   ]
       // },
       { text: '我的GitHub', link: 'https://github.com/Megatron7-code', target: '_blank' },
+      { text: '支持作者', link: '/blog/support/支持作者.md'}
       // {
       //   text: "标签云",
       //   link: '/blog/tags/',
