@@ -2,7 +2,7 @@
 set -e
 
 # 本地master代码push
-git add -u && git commit -m 'adjust'
+git add . && git commit -m 'adjust'
 
 npm run docs:build
 
