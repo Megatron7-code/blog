@@ -22,7 +22,7 @@ module.exports = {
       //   ]
       // },
       { text: '我的GitHub', link: 'https://github.com/Megatron7-code', target: '_blank' },
-      { text: '支持作者', link: '/blog/support/支持作者.md'}
+      { text: '支持作者', link: '/blog/support/支持作者.md'},
       // {
       //   text: "标签云",
       //   link: '/blog/tags/',
@@ -76,6 +76,13 @@ module.exports = {
           ['/blog/ops/shell 常用知识汇总.md', 'shell 常用知识汇总'],
           ['/blog/ops/往Mysql数据库存储emoji表情怎么变成了问号.md', '往Mysql数据库存储emoji表情怎么变成了问号'],
           ['/blog/ops/VPC网络的理解与实践.md', 'VPC网络的理解与实践'],
+        ]
+      },
+      {
+        title: '支持作者',
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          ['/blog/support/支持作者.md', '支持作者'],
         ]
       },
     ],
