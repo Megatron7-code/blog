@@ -59,6 +59,7 @@ module.exports = {
         children: [
           ['/blog/effect/MAC平台10款效率工具推荐.md', 'MAC平台10款效率工具推荐'],
           ['/blog/effect/12款精选浏览器插件推荐.md', '12款精选浏览器插件推荐'],
+          ['/blog/effect/Homebrew下载很慢怎么办.md', 'Homebrew下载很慢怎么办'],
         ]
       },
       {

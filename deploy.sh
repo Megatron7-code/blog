@@ -1,6 +1,9 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 本地master代码push
+git add -u && git commit -m 'adjust'
+
 npm run docs:build
 
 cd docs/.vuepress/dist
