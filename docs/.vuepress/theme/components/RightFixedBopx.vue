@@ -43,6 +43,7 @@
        </div>
     </div>
 </template>
+<script data-ad-client="ca-pub-3533711312489827" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   export default {
     data() {
