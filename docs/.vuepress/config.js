@@ -77,6 +77,7 @@ module.exports = {
           ['/blog/ops/shell 常用知识汇总.md', 'shell 常用知识汇总'],
           ['/blog/ops/往Mysql数据库存储emoji表情怎么变成了问号.md', '往Mysql数据库存储emoji表情怎么变成了问号'],
           ['/blog/ops/VPC网络的理解与实践.md', 'VPC网络的理解与实践'],
+          ['/blog/ops/由Linux 警告:Permison denied引发的思考.md', '由Linux 警告:Permison denied引发的思考'],
         ]
       },
       {
