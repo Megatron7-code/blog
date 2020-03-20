@@ -48,8 +48,28 @@
     </div>
   </main>
 </template>
-<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1278699800'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1278699800' type='text/javascript'%3E%3C/script%3E"));</script>
-<script data-ad-client="ca-pub-3533711312489827" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+export default {
+  name: "App",
+  mounted() {
+    const script = document.createElement("script");
+    script.src =
+      "https://s9.cnzz.com/z_stat.php?id=1278699800";
+    script.language = "JavaScript";
+    document.body.appendChild(script);
+  },
+  watch: {
+    $route() {
+      if (window._czc) {
+        let location = window.location;
+        let contentUrl = location.pathname + location.hash;
+        let refererUrl = "/";
+        window._czc.push(["_trackPageview", contentUrl, refererUrl]);
+      }
+    }
+  }
+}
+</script>
 <script>
 import NavLink from '@theme/components/NavLink.vue'
 
