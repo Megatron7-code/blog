@@ -12,7 +12,7 @@
       <p class="description">
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
       </p>
-
+      <script type="text/javascript">document.write(unescape("<span id='cnzz_stat_icon_1278699800'></span><script src='https://s9.cnzz.com/z_stat.php?id=1278699800' type='text/javascript'></script>"));</script>
       <p
         class="action"
         v-if="data.actionText && data.actionLink"
@@ -22,7 +22,6 @@
           :item="actionLink"
         />
       </p>
-    <script type="text/javascript">document.write(unescape("<span id='cnzz_stat_icon_1278699800'></span><script src='https://s9.cnzz.com/z_stat.php?id=1278699800' type='text/javascript'></script>"));</script>
     </header>
 
     <div
