@@ -48,6 +48,7 @@
     </div>
   </main>
 </template>
+<script type="text/javascript">document.write(unescape("<span id='cnzz_stat_icon_1278699800'></span><script src='https://s9.cnzz.com/z_stat.php?id=1278699800' type='text/javascript'></script>"));</script>
 <script>
 import NavLink from '@theme/components/NavLink.vue'
 
