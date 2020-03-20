@@ -35,7 +35,6 @@
     </div>
   </header>
 </template>
-<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1278699800'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1278699800' type='text/javascript'%3E%3C/script%3E"));</script>
 <script>
 import AlgoliaSearchBox from '@AlgoliaSearchBox'
 import SearchBox from '@SearchBox'
