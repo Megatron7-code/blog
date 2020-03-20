@@ -11,6 +11,7 @@
 
       <p class="description">
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        {{ $out_js }}
       </p>
       <p
         class="action"
@@ -21,7 +22,6 @@
           :item="actionLink"
         />
       </p>
-      {{ $out_js }}
     </header>
 
     <div
