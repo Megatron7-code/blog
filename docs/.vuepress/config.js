@@ -21,6 +21,7 @@ module.exports = {
       //     { text: 'Japanese', link: '/language/japanese/' }
       //   ]
       // },
+      { text: '硬件改造', link: '/blog/transform/自行搭建家庭版服务器x96 max-硬件篇(一).md' },
       { text: '我的GitHub', link: 'https://github.com/Megatron7-code', target: '_blank' },
       { text: '支持作者', link: '/blog/support/支持作者.md'},
       // {
@@ -78,6 +79,13 @@ module.exports = {
           ['/blog/ops/往Mysql数据库存储emoji表情怎么变成了问号.md', '往Mysql数据库存储emoji表情怎么变成了问号'],
           ['/blog/ops/VPC网络的理解与实践.md', 'VPC网络的理解与实践'],
           ['/blog/ops/由Linux 警告:Permison denied引发的思考.md', '由Linux 警告:Permison denied引发的思考'],
+        ]
+      },
+      {
+        title: '硬件改造',
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          ['/blog/transform/自行搭建家庭版服务器x96 max-硬件篇(一).md', '自行搭建家庭版服务器x96 max-硬件篇(一)']
         ]
       },
       {
