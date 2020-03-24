@@ -21,7 +21,7 @@ module.exports = {
       //     { text: 'Japanese', link: '/language/japanese/' }
       //   ]
       // },
-      { text: '硬件改造', link: '/blog/transform/自行搭建家庭版服务器x96 max-硬件篇(一).md' },
+      { text: '硬件改造', link: '/blog/transform/自行搭建家庭版服务器x96max-硬件篇(一).md' },
       { text: '我的GitHub', link: 'https://github.com/Megatron7-code', target: '_blank' },
       { text: '支持作者', link: '/blog/support/支持作者.md'},
       // {
@@ -85,7 +85,7 @@ module.exports = {
         title: '硬件改造',
         collapsable: false, // 可选的, 默认值是 true,
         children: [
-          ['/blog/transform/自行搭建家庭版服务器x96 max-硬件篇(一).md', '自行搭建家庭版服务器x96 max-硬件篇(一)']
+          ['/blog/transform/自行搭建家庭版服务器x96max-硬件篇(一).md', '自行搭建家庭版服务器x96max-硬件篇(一)']
         ]
       },
       {
