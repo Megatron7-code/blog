@@ -8,7 +8,7 @@ ROM我选了64G(**到后面才知道，选最小的。因为我是用的是u盘�
 >如果你不用遥控器，可以和老板商量下再便宜点。估计4G-32G 210块能拿下（+邮费）
 
 接下来就是等待啦
-## 准备事项
+#### 准备事项
 * u盘8-16G都行，我用的16G的。开始准备的是sd卡，无奈无法引导
 * 网线一根
 * windows系统，开始用的parallels虚机，有个软件无法识别u盘作罢
@@ -20,7 +20,7 @@ ROM我选了64G(**到后面才知道，选最小的。因为我是用的是u盘�
 ![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cDovL2Jsb2ctcmVzLnZtMzIxLmNvbS9XZWNoYXRJTUc4ODQucG5n?x-oss-process=image/format,png)
 好的。u盘引导我们制作完成啦。
 
-## 安装系统
+#### 安装系统
 先上图
 ![](https://imgconvert.csdnimg.cn/aHR0cDovL2Jsb2ctcmVzLnZtMzIxLmNvbS8yMDIwLTAzLTIzJTIwMjIuMzEuMDAuanBn?x-oss-process=image/format,png)
 * 1.首先将u盘插在usb2.0口上
@@ -29,7 +29,7 @@ ROM我选了64G(**到后面才知道，选最小的。因为我是用的是u盘�
 * 4.插上电源，过2-3秒把牙签松开
 * 5.此时应该能看到开机画面了
 
-## 系统设置
+#### 系统设置
 进入系统后就是各种检测啦，最终会停在登录界面。
 第一次输入账号：root
 紧接着输入密码：1234
