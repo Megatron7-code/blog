@@ -2,7 +2,7 @@
 set -e
 
 # 本地master代码push
-git add . && git commit -m 'adjust' && git push
+git add . && git commit -m 'update blog' && git push
 
 npm run docs:build
 
